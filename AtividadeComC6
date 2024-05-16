@@ -1,0 +1,24 @@
+# AtividadeComC6
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	float peso;
+	
+		
+	printf("digite o seu peso\n");
+	scanf("%f", &peso);
+	
+	float gramas = 1000;
+	
+	
+	
+	float pesoEmGramas = peso * gramas;
+	
+	printf("\no seu peso em gramas e %f", pesoEmGramas);
+
+	return 0;
+	
+}
